@@ -1,4 +1,4 @@
-def who_won(game_board: list):
+def who_won(game_board: list) -> int:
     player1, player2 = 0, 0
     
     for i in range(len(game_board)):
