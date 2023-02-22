@@ -80,9 +80,9 @@ def grade_distribution(data: list) -> list:
 
 
 def print_grades(grades: list):
-    x = 5
+    x = len(grades) - 1
     for grade in grades[::-1]:
-        print(f"{str(x): >3}: {grade}")
+        print(f"{x: >3}: {grade}")
         x -= 1
 
 
