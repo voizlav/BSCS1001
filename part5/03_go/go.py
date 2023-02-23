@@ -1,4 +1,4 @@
-def who_won(game_board: list):
+def who_won(game_board: list) -> int:
     p1, p2 = 0, 0
 
     for row in game_board:
