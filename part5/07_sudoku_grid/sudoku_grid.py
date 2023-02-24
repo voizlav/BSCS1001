@@ -31,23 +31,21 @@ def block_correct(sudoku: list, row_no: int, column_no: int) -> bool:
 
 
 def sudoku_grid_correct(sudoku: list):
-    result = True
 
     for row in range(len(sudoku)):
-        result = row_correct(sudoku, row)
-        if not result:
+        if not row_correct(sudoku, row):
             return False
+    
     for column in range(len(sudoku[0])):
-        result = column_correct(sudoku, column)
-        if not result:
+        if not column_correct(sudoku, column):
             return False
+    
     for row in range(0, len(sudoku), 3):
         for column in range(0, len(sudoku[row]), 3):
-            result = block_correct(sudoku, row, column)
-            if not result:
+            if not block_correct(sudoku, row, column):
                 return False
-    return result
-
+    
+    return True
 
 
 if __name__ == "__main__":
