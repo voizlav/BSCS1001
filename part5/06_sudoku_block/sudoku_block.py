@@ -7,7 +7,6 @@ def block_correct(sudoku: list, row_no: int, column_no: int):
                 return False
             numbers.append(box)
     return True
-        
 
 
 if __name__ == "__main__":
