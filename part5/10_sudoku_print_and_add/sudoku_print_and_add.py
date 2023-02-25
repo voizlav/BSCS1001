@@ -3,8 +3,8 @@ def print_sudoku(sudoku: list):
         for i in range(len(sudoku[x])):
             print(f"{sudoku[x][i] if not sudoku[x][i] == 0 else '_'} ", end="")
             print(" ", end="") if (i + 1) % 3 == 0 else None 
-        print() if (x + 1) % 3 == 0 else None    
-        print()
+        print("\n") if (x + 1) % 3 == 0 else print()    
+        
 
 
 def add_number(sudoku: list, row_no: int, column_no: int, number:int):
