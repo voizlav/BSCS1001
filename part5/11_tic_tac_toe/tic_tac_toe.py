@@ -1,4 +1,4 @@
-def play_turn(game_board: list, x: int, y: int, piece: str):
+def play_turn(game_board: list, x: int, y: int, piece: str) -> bool:
     if x not in [0, 1, 2] or y not in [0, 1, 2] or game_board[y][x]:
         return False
 
