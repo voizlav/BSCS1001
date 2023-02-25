@@ -1,13 +1,8 @@
 def invert(dictionary: dict):
-    temp = {}
-
-    for k, i in dictionary.items():
-        temp[i] = k
-    
+    temp = {i: k for k, i in dictionary.items()}
     dictionary.clear()
-
-    for k, i in temp.items():
-        dictionary[k] = temp[k]
+    for key in temp:
+        dictionary[key] = temp[key]
 
 
 if __name__ == "__main__":
