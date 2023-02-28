@@ -6,7 +6,7 @@ def get_data(file: str) -> list:
     return data
 
 
-def matrix_sum():
+def matrix_sum() -> int:
     total = 0
     data = get_data("matrix.txt")
     for row in data:
@@ -14,7 +14,7 @@ def matrix_sum():
     return total
 
 
-def matrix_max():
+def matrix_max() -> int:
     greatest = -float("inf")
     data = get_data("matrix.txt")
     for row in data:
@@ -24,7 +24,7 @@ def matrix_max():
     return greatest
 
 
-def row_sums():
+def row_sums() -> list:
     result = []
     data = get_data("matrix.txt")
     for row in data:
