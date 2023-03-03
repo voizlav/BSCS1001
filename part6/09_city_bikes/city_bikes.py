@@ -33,7 +33,7 @@ def distance(stations: dict, station1: str, station2: str) -> float:
     return math.sqrt(x**2 + y**2)
 
 
-def greatest_distance(stations: dict):
+def greatest_distance(stations: dict) -> tuple:
     distances = {}
     greatest = (None, None, 0)
     for stat1 in stations:
