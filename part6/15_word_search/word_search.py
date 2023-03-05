@@ -21,10 +21,8 @@ def find_words(search_term: str) -> list:
             if len(word) == len(search_term):
                 for i in range(len(word)):
                     if "." == search_term[i]:
-                        if i == len(word) - 1:
-                            result.append(word)
-                        else:
-                            continue
+                        result.append(word) if i == len(word) - 1 else None
+                        continue
                     if word[i] == search_term[i] and i == len(word) - 1:
                             result.append(word)
                     if word[i] != search_term[i]:
