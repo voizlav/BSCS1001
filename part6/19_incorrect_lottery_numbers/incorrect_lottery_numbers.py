@@ -17,8 +17,7 @@ def filter_incorrect():
             unique_numbers.append(num) if num not in unique_numbers else None
         if not len(unique_numbers) == 7:
             continue
-        correct += header
-        correct += ",".join(str(num) for num in unique_numbers) + "\n"
+        correct += header + ",".join(str(num) for num in unique_numbers) + "\n"
     
     with open("correct_numbers.csv", "w") as c:
         c.write(correct)
