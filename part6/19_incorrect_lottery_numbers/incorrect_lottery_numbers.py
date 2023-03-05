@@ -2,15 +2,14 @@ def filter_incorrect():
     load_data = []
     with open("lottery_numbers.csv") as x:
         for i in x:
-            line = i.strip().split(";")
-            load_data.append(line)
+            load_data.append(i.strip().split(";"))
 
     correct = ""
     for week in load_data:
-        x, y = week[0].split(" ")
+        week_word, week_number = week[0].split(" ")
         try:
-            header = f"{x} {int(y)};"
-            numbers = [int(num) for num in week[1].split(',') if int(num) > 0 and int(num) < 40]
+            header = f"{week_word} {int(week_number)};"
+            numbers = [int(num) for num in week[1].split(",") if int(num) > 0 and int(num) < 40]
         except ValueError:
             continue
         unique_numbers = []
@@ -19,8 +18,7 @@ def filter_incorrect():
         if not len(unique_numbers) == 7:
             continue
         correct += header
-        correct += ",".join(str(num) for num in unique_numbers)
-        correct += "\n"
+        correct += ",".join(str(num) for num in unique_numbers) + "\n"
     
     with open("correct_numbers.csv", "w") as c:
         c.write(correct)
