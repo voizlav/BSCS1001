@@ -16,12 +16,12 @@ def words(n: int, beginning: str):
         if word.startswith(beginning):
             result.append(word)
     if len(result) < n:
-        raise ValueError("not enough words beginning with the", beginning)
+        raise ValueError(f"not enough words beginning with the '{beginning}'")
     shuffle(result)
-    return [word for word in result[:n]]
+    return result[:n]
 
 
 if __name__ == "__main__":
-    word_list = words(3, "ca")
+    word_list = words(3, "caadsf")
     for word in word_list:
         print(word)
