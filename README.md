@@ -44,7 +44,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 8. [x] Programming exercise: Loyalty bonus
 9. [x] Programming exercise: What to wear tomorrow
 10. [x] Programming exercise: Solving a quadratic equation
-11. [x] Quiz: Feedback, part 1
+11. [ ] Quiz: Feedback, part 1
 
 ## Part 2
 
@@ -77,7 +77,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 6. [x] Programming exercise: The next leap year
 7. [x] Programming exercise: Story
 8. [x] Programming exercise: Working with numbers
-9. [x] Quiz: Feedback, part 2
+9. [ ] Quiz: Feedback, part 2
 
 ## Part 3
 
@@ -122,7 +122,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 5. [x] Programming exercise: A square of hashes
 6. [x] Programming exercise: Chessboard
 7. [x] Programming exercise: A word squared
-8. [x] Quiz: Feedback, part 3
+8. [ ] Quiz: Feedback, part 3
 
 ## Part 4
 
@@ -175,7 +175,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 4. [x] Programming exercise: No shouting allowed
 5. [x] Programming exercise: Neighbours in a list
 6. [x] Programming exercise: Grade statistics
-7. [x] Quiz: Feedback, part 4
+7. [ ] Quiz: Feedback, part 4
 
 ## Part 5
 
@@ -213,7 +213,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 3. [x] Programming exercise: Older people
 4. [x] Programming exercise: Student database
 5. [x] Programming exercise: A square of letters
-6. [x] Quiz: Feedback, Part 5
+6. [ ] Quiz: Feedback, Part 5
 
 ## Part 6
 
@@ -243,7 +243,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 3. [x] Programming exercise: Incorrect lottery numbers
 
 #### Local and global variables
-1. [x] Quiz: Feedback, Part 6
+1. [ ] Quiz: Feedback, Part 6
 
 ## Part 7
 
@@ -273,8 +273,8 @@ The course is organized in co-operation between Open University and Bachelor's p
 
 #### Creating your own modules
 1. [ ] Programming exercise: String helper
-2. [x] Quiz: Loppukysely, osa 7
+2. [ ] Quiz: Loppukysely, osa 7
 
 #### More Python features
 1. [ ] Programming exercise: Your own programming language
-2. [x] Quiz: Course Feedback
+2. [ ] Quiz: Course Feedback
