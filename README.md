@@ -18,7 +18,7 @@ The course is organized in co-operation between Open University and Bachelor's p
 5. [x] Programming exercise: Story
 
 #### More about variables
-1. Quiz: Background information
+1. [ ] Quiz: Background information
 2. [x] Programming exercise: Extra space
 3. [x] Programming exercise: Arithmetics
 4. [x] Programming exercise: Fix the code: Print a single line
